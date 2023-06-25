@@ -3,7 +3,7 @@ cd derpfest
 echo --------------------------------------------------------------------------------------\n
 #Rebasing tree to Elixer os tree by Bunny
 echo Cloning Device Tree from Bunny
-git clone git@github.com:bunny155/android_device_lunaa.git device/realme/lunaa
+git clone https://github.com/pjgowtham/android_device_realme_lunaa.git device/realme/lunaa
 
 echo --------------------------------------------------------------------------------------\n
 echo --------------------------------------------------------------------------------------\n
@@ -14,7 +14,7 @@ echo ---------------------------------------------------------------------------
 echo --------------------------------------------------------------------------------------\n
 
 echo Cloning Kernel from pj
-git clone https://github.com/itsxrp/kernel_oneplus_sm8350.git kernel/oneplus/sm8350
+git clone https://github.com/pjgowtham/android_kernel_oneplus_sm8350.git kernel/oneplus/sm8350
 
 echo --------------------------------------------------------------------------------------\n
 echo --------------------------------------------------------------------------------------\n
