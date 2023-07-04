@@ -1,0 +1,20 @@
+[Forwarded from Gabriel Lup]
+All crDroid builds need to be uploaded on our official SourceForge
+Below are the FTP credentials for upload server
+Hostname: upme.crdroid.net
+Username: uploader
+Password: wanttoupload
+
+For below description, replace device-codename with actual device codename
+You need to create a folder like so:
+/files/device-codename/9.x  (9.x represents build variant)
+Upload build in this directory and our server will mirror to SourceForge when done
+Your build will be seen after mirroring (takes around max 10 min) at below link:
+https://sourceforge.net/projects/crdroid/files/device-codename/9.x
+
+« helpfull commands from linux terminal »
+
+create folder: curl --ssl -k ftp://upme.crdroid.net/files/lunaa/9.x/ --user uploader:wanttoupload --ftp-create-dirs
+upload build: curl --ssl -k -T crdroid.zip ftp://upme.crdroid.net/files/lunaa/9.x/ --user uploader:wanttoupload
+
+To check build upload status, see https://monitor.crdroid.net

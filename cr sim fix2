@@ -1,0 +1,11 @@
+0xQuantum, [27/06/23 10:13 AM]
+Seems to be sim issue is related to sepolicy
+
+Cloning evox sepolicy fixes
+
+https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um
+
+0xQuantum, [27/06/23 10:14 AM]
+rm -rf device/qcom/sepolicy_vndr-legacy-um
+
+git clone https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um device/qcom/sepolicy_vndr-legacy-um
